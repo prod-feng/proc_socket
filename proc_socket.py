@@ -32,7 +32,6 @@ Socket_states =[
 ]
 debug = 0
 
-ip2hex = lambda ip: reduce(lambda a, b: (a << 8) + b, map(int, ip.split('.')), 0)
 hex2ip = lambda h: '.'.join([str(h >> (i << 3) & 0xFF) for i in range(0, 4)])
 
 
