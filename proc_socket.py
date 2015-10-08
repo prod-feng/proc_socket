@@ -49,7 +49,7 @@ class ProcSockets(object):
                          'udp6':self.print_udp6,
                          'unix':self.print_unix,
     }
-    # Get all processes
+    # Get all sockets on the host
     self.Find_System_Sockets()
 
 
