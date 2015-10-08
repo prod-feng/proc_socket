@@ -1,0 +1,4 @@
+./proc_socket.py 14090
+TCP sockets:
+   Inode               Local:Port              Remote:Port          State 
+  13410206       xx.xx.xx.xx:   aabb       yy.yy.yy.yy:   ccdd   TCP_SYN_SENT
